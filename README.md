@@ -8,4 +8,6 @@ Todos los proyectos alojados en este repositorio han sido elaborados por :
 - Nicolas Steeven Rivera 
 - María Camila Guerrero Giraldo
 
+### Tarea de Normas de Gestión de la Innovación y video de casos concretos Colombia
 
+El video se encuentra disponible en [Video](http://github.com)
