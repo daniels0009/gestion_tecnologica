@@ -10,4 +10,4 @@ Todos los proyectos alojados en este repositorio han sido elaborados por :
 
 ### Tarea de Normas de Gestión de la Innovación y video de casos concretos Colombia
 
-El video se encuentra disponible en [Video](http://github.com)
+El video se encuentra disponible en [Video](https://drive.google.com/file/d/1lzVz_Dyb9lAApEwk4POLbrgS_r9vbG25/view?usp=sharing)
