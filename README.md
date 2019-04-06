@@ -4,7 +4,7 @@ Repositorio con los trabajos y proyectos de la asignatura Gestión Tecnológica 
 
 
 Todos los proyectos alojados en este repositorio han sido elaborados por :
-- Miguel Angel Vega Alonso @miavega
+- Miguel Angel Vega Alonso @Miavega
 - Nicolas Steeven Rivera 
 - María Camila Guerrero Giraldo
 
