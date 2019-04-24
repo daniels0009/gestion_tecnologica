@@ -1,10 +1,10 @@
 # Guia para la configuración del entorno de Gestión de Proyectos con Docker 
 
-Herramienta seleccionada : Tuleap 
-Sistema Operativo : Linux (Ubuntu 18.04)
+Herramienta seleccionada: Tuleap 
+Sistema Operativo: Linux (Ubuntu 18.04)
 
 ## Pasos
-0. El equipo debe tener instalada la herramienta Docker . Además de tener esta herramienta instalada, es vital instalar docker-compose , para lo cual se sugiere seguir estos pasos
+0. El equipo debe tener instalada la herramienta Docker. Además de tener esta herramienta instalada, es vital instalar docker-compose, para lo cual se sugiere seguir estos pasos
   - Habilitar super usuario 
     ```
     sudo su
@@ -13,7 +13,7 @@ Sistema Operativo : Linux (Ubuntu 18.04)
     ```
     apt-get install docker-compose
     ```
-1. Clonar el repositorio con la imagen de tuleap dentro de la carpeta tuleap-aio . Nota : tuleap-aio es el nombre que se eligió como directorio, sin embargo , este nombre puede ser diferente.
+1. Clonar el repositorio con la imagen de tuleap dentro de la carpeta tuleap-aio. Nota: tuleap-aio es el nombre que se eligió como directorio, sin embargo, este nombre puede ser diferente.
     ```
     git clone https://github.com/Enalean/docker-tuleap-aio tuleap-aio
     ```
@@ -35,8 +35,8 @@ El usuario será **admin** y la contraseña será la que retorna el comando prev
 # FAQ
 
 ¿Por qué no puedo visualizar la página Tuleap en mi computador?
-R :/ Generalmente , hay procesos corriendo en el puerto 80 de los computadores, para el archivo docker-compose.yml la configuración por defecto está sobre este puerto, por lo tanto 
-es necesario que se cambie el puerto 80 por otro puerto que no esté en uso . Por ejemplo : el puerto de 83 :older_man: . Editar 
+R :/ Generalmente, hay procesos corriendo en el puerto 80 de los computadores, para el archivo docker-compose.yml la configuración por defecto está sobre este puerto, por lo tanto 
+es necesario que se cambie el puerto 80 por otro puerto que no esté en uso. Por ejemplo: el puerto de 83 :older_man:. Editar 
   ```
   ports:
   - 80:80
